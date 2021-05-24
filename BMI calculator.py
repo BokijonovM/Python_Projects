@@ -22,15 +22,15 @@ print("Your BMI is: {0} and you are: ".format(bmi), end='')
 #conditions
 """
 Category								BMI (kg/m2)			BMI Prime
-                                		from	to	      from		to
-Very severely underweight						15					0.60
-Severely underweight	        		15	    16	      0.60		0.64
-Underweight	                    		16	    18.5	  0.64		0.74
-Normal (healthy weight)	        		18.5	25	      0.74		1.0
-Overweight	                    		25	    30	      1.0		1.2
-Obese Class I (Moderately obese)		30	    35	      1.2		1.4
-Obese Class II (Severely obese)			35	    40	      1.4		1.6
-Obese Class III (Very severely obese)	40				  1.6
+                                		from	  to	      from	 	to
+Very severely underweight						15					      0.60
+Severely underweight	        		  15	    16	      0.60		0.64
+Underweight	                    		16	    18.5	    0.64		0.74
+Normal (healthy weight)	        		18.5	  25	      0.74		1.0
+Overweight	                    		25	    30	      1.0		  1.2
+Obese Class I (Moderately obese)		30	    35	      1.2		  1.4
+Obese Class II (Severely obese)			35	    40	      1.4		  1.6
+Obese Class III (Very severely obese)	40				      1.6
 """
 if ( bmi >= 16 and bmi < 18.5):
    print("Underweight")
