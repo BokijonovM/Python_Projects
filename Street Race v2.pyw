@@ -3,7 +3,7 @@ import pygame.freetype
 import random
 import os
 import math
-
+# second change
 os.environ['SDL_VIDEO_CENTERED'] = '1'
 path = os.path.dirname(os.path.abspath(__file__))
 record_file = os.path.join(path, 'Record', 'record.txt')
