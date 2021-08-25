@@ -466,3 +466,5 @@ while game:
     pg.display.set_caption(f'Rally      FPS: {int(clock.get_fps())}')
 
 # pg.image.save(screen, 'road.jpg')
+
+# I made some changes
